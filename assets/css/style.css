@@ -20,6 +20,10 @@ body {
     line-height: 25px;
     transform: translate(-50%, -50%);
     color: white;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .bg1 {
