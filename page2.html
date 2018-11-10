@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Hackk</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+
+    <!--Css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/modal-style.css">
+    <!--Fonts and Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+
+
+    <!--JS And Libraries-->
+
+    <script src="typed.js"></script>
+    <!--JQuery-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+</head>
+
+<body style="background:black">
+
+    <section id="first-nav">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand head" style="font-weight:bold;font-family: 'Bree Serif', serif;font-size:1.5em">Teachh</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto ml-5">
+
+                        <li class="nav-item active">
+                            <a class="nav-link head" href="" style="font-size:1.5em">Home <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link head" href="#" style="font-size:1.5em">Progress</a>
+                        </li>
+
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0 ">
+
+                        <a class="btn btn1 my-2 my-sm-0" href="" role="button"><i class="fas fa-sign-out-alt"></i>  Logout</a>
+
+                        <a class="btn btn1 my-2 my-sm-0 ml-2" href="" role="button"><i class="fas fa-user-alt">  </i> Account</a>
+                    </form>
+                </div>
+            </div>
+
+        </nav>
+
+    </section>
+
+    <section>
+        <div class="container jumbotron ">
+            <h1 class="text-center style=" style="font-weight:bold;font-family: 'Bree Serif', serif;font-size:2.9em;color:blueviolet;">Compilation and Execution</h1>
+            <hr>
+            <div class="container">
+
+                <h4> We know, to make <strong>perfect dish</strong> we need to add each and every ingredient carefully, Imagine how will it taste if we add salt instead of sugar in the tea!!
+                    <br><br> So in the same way we we need to write a program even more carefully not a single character should be missed!
+                </h4>
+
+
+                <br>
+                <div class="container">
+                    <h2 style="color:red">Can you eat your lunch without cooking the raw vegetables,rice and pulses?</h2>
+                </div>
+                <br>
+                <h4 style="line-height:1.4em">You need to <strong>cook</strong> the ingredients first i.e convert from raw form to cooked form. Similarly these computers are are not smart enough to understand the code you write so the code you write needs to be converted/translated
+                    from your programming language(C++) to computer language i.e. <strong> binary language</strong>.And this process of coverting human level language to machine level language is known as <strong> compilation </strong>and it is done by
+                    <strong> compiler</strong>.</h4>
+                <br>
+                <h4 style="line-height:1.4em;color:darkmagenta">
+                    Another one, before you let your family taste the delicious lunch that you are going to prepare you need to cook first, in the same way to use your program that you just coded you need to <strong> run/execute</strong> it first.
+                </h4>
+                <div class="btn-wrapper">
+                    <button class="btn btn-primary btn-center" type="button" data-toggle="modal" data-target="#points-modal"><span>Let's Prepare lunch</span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="modal fade modal-wrap" id="points-modal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="text-congrats" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content container-fluid">
+
+                <div class="modal-body">
+
+                    <div class=" rows ">
+                        <div class="col">
+                            <img id="img-checked" src="assets/images/checked.png" alt="Congratulations">
+                        </div>
+                    </div>
+
+                    <div class=" rows ">
+                        <div class="col heading text-center modal-text" id="modal-congrats-text">
+                            Congratulations
+                        </div>
+                    </div>
+
+                    <div class="rows">
+                        <div class="col text-center modal-text" id="modal-congrats-subtext">
+                            Now you know what is Compilation and execution !
+                        </div>
+                    </div>
+
+                    <div class="rows ">
+                        <div class="col text-center modal-text">
+                            <button type="button" id="btn-nextpage" class="btn" onclick="nextPage()">Continue</button>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function nextPage() {
+            location.href = "page3.html";
+        }
+    </script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+</body>
+
+</html>
