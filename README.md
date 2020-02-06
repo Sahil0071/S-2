@@ -1,8 +1,8 @@
-# It is a platform where the homemakers can learn coding in the language of cooking.
+# Code while you cook
+- **It is a platform where the homemakers can learn coding in the language of cooking.**
 
-### Tired of doing the daily household job?Want to do something different, Umm...such as coding but find it difficult to read documentations or to understand the high level language of the mentors in the online tutorials?
-
-### Don't worry no need to mug up those things.Here you will learn to code in C++ while just cooking.Also you can earn points and badges to showoff your skills! Wondering how will you code while you cook?
+## Description
+- **It's a website that teaches homemakers learn code in the language of cooking. The important concepts of coding will be in cooking language which homemakers know and based on that there will be some questions and quiz.**
 
 ## Wondering why should women start coding?
 
